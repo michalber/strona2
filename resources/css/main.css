@@ -94,7 +94,7 @@ h2:after{
 
 .box p{
     font-size: 90%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 145%;
 }
 
@@ -282,33 +282,41 @@ header {
 
 .section-meals .row{
     padding: 0;
-    margin: 0 auto;
-    max-width: 1500px;
+    margin: 0 ;
+    max-width: 85%;
 }
 .meals-showcase{
     text-align: center;
-    width: 50%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-47.5%,0);
 }
 
 
 .meal-photo{
     width: 100%;
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: black;
 }
 
 .meal-photo img{
+    image-resolution: 300dpi;
+    padding: 1px;
+    
     opacity: 0.6;
     width: 100%;
     height: auto;
-    transform: scale(1.15);
+    transform: scale(1.22);
     transition: transform 0.5s, opacity 0.5s;
 }
 
 .meal-photo img:hover{
     opacity: 1;
-    transform: scale(1.1);
+    transform: scale(1.14);
 }
 
 /*------------------------------------------------------------*/
@@ -495,7 +503,7 @@ select,
 textarea {
     width: 100%;
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #ccc;
 }
 
