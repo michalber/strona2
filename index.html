@@ -5,6 +5,7 @@
     
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css"> 
     <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css">
     <link href="vendors/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="resources/css/main.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
@@ -28,42 +29,45 @@
         </div>
         </nav>
         
-        <div class="hero-text-box">
-        <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
-            <a class="btn btn-full" href="#">I’m hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+        <div id="demo" class="hero-text-box" onclick="myFunction1()">
+                   <button id="cms" class="cms" type="button" onclick="myFunction2()">Click to edit</button>
+
+                     <h1 data-aos="fade-left" id="title">Goodbye junk food.<br> Hello super healthy meals.</h1>
+                      
+            <a data-aos="fade-up" data-aos-delay=500 class="btn btn-full" href="#">I’m hungry</a>
+            <a data-aos="fade-up" data-aos-delay=1000 class="btn btn-ghost" href="#">Show me more</a>
         </div>
     </header>
  
     <section class="section-features">
         <div class="row">
-            <h2>Get food fast &mdash; not fast food.</h2>
-            <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know
+            <h2 data-aos="fade-down">Get food fast &mdash; not fast food.</h2>
+            <p data-aos="fade-up" data-aos-delay=500 class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know
                 you’re always busy. No time for cooking. So let us take care of that, we’re
                 really good at it, we promise!</p>
         </div>    
         <div class="row">
-            <div class="col span-1-of-4 box">
+            <div data-aos="zoom-in-up" data-aos-delay=1000 class="col span-1-of-4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>Up to 365 days/year</h3>
                 <p>Never cook again! We really mean that. Our subscription plans include up to
                     365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
             </div>
-            <div class="col span-1-of-4 box">
+            <div data-aos="zoom-in-up" data-aos-delay=1000 class="col span-1-of-4 box">
                 <i class="ion-ios-timer-outline icon-big"></i>
                 <h3>Ready in 20 minutes</h3>
                 <p>You're only twenty minutes away from your delicious and super healthy
                     meals delivered right to your home. We work with the best chefs in each
                     town to ensure that you're 100% happy.</p>
             </div>
-            <div class="col span-1-of-4 box">
+            <div data-aos="zoom-in-up" data-aos-delay=1000 class="col span-1-of-4 box">
                 <i class="ion-ios-nutrition-outline icon-big"></i>
                 <h3>100% organic</h3>
                 <p>All our vegetables are fresh, organic and local. Animals are raised without
                     added hormones or antibiotics. Good for your health, the environment, and it
                     also tastes better!</p>
             </div>
-            <div class="col span-1-of-4 box">
+            <div data-aos="zoom-in-up" data-aos-delay=1000 class="col span-1-of-4 box">
                 <i class="ion-ios-cart-outline icon-big"></i>
                 <h3>Order anything</h3>
                 <p>We don't limit your creativity, which means you can order whatever you feel
@@ -133,39 +137,39 @@
     
     <section class="section-steps">
         <div class="row">
-            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+            <h2 data-aos="fade-down">How it works &mdash; Simple as 1, 2, 3</h2>
         </div>    
         <div class="row">
-            <div class="col span-1-of-2 steps-box">
+            <div data-aos="fade-right" data-aos-delay=500 class="col span-1-of-2 steps-box">
                 <img src="resources/img/app-iPhone.png" alt="Omifood app on iPhone" class="app-screen">
             </div>
             <div class="col span-1-of-2 steps-box">
-                <div class="works-step">
+                <div data-aos="fade-left" data-aos-delay=1000 class="works-step">
                     <div>1</div>
                     <p>Choose the subscription plan that best fits your needs and sign up today.</p> 
                 </div>
-                <div class="works-step">
+                <div data-aos="fade-left" data-aos-delay=1300 class="works-step">
                     <div>2</div>
                     <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p> 
                 </div>
-                <div class="works-step">
+                <div data-aos="fade-left" data-aos-delay=1600 class="works-step">
                     <div>2</div>
                     <p>Enjoy your meal after less than 20 minutes. See you the next time!</p> 
                 </div>
                 
-                <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App store button"></a>
+                <a data-aos="fade-up" data-aos-delay=2000 href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App store button"></a>
                 
-                 <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play store button"></a>
+                 <a data-aos="fade-up" data-aos-delay=2500 href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play store button"></a>
             </div>
         </div>
     </section>
 
     <section class="section-cities">
         <div class="row">
-            <h2>We're currently in these cities</h2>
+            <h2 data-aos="fade-down">We're currently in these cities</h2>
         </div>   
         <div class="row">
-            <div class="col span-1-of-4 box">
+            <div data-aos="fade-right" data-aos-delay=700 class="col span-1-of-4 box">
                 <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
                 <h3>Lisbon</h3>
                 <div class="city-feature">
@@ -182,7 +186,7 @@
                 </div>
             </div>
             
-            <div class="col span-1-of-4 box">
+            <div data-aos="fade-right" data-aos-delay=500 class="col span-1-of-4 box">
                 <img src="resources/img/san-francisco.jpg" alt="San Francisco">
                 <h3>San Francisco</h3>
                 <div class="city-feature">
@@ -199,7 +203,7 @@
                 </div>
             </div>
             
-            <div class="col span-1-of-4 box">
+            <div data-aos="fade-left" data-aos-delay=500 class="col span-1-of-4 box">
                 <img src="resources/img/berlin.jpg" alt="Berlin">
                 <h3>Berlin</h3>
                 <div class="city-feature">
@@ -216,7 +220,7 @@
                 </div>
             </div>
             
-            <div class="col span-1-of-4 box">
+            <div data-aos="fade-left" data-aos-delay=700  class="col span-1-of-4 box">
                 <img src="resources/img/london.jpg" alt="London">
                 <h3>London</h3>
                 <div class="city-feature">
@@ -245,7 +249,7 @@
                     Omnifood is just awesome! I just launched a startup which leaves me with no
                     time for cooking, so Omnifood is a life-saver. Now that I got used to it, I
                     couldn't live without my daily meals!
-                    <cite><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
+                    <cite data-aos="fade-up"><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
                 </blockquote>
             </div> 
             <div class="col span-1-of-3">
@@ -253,7 +257,7 @@
                     Inexpensive, healthy and great-tasting meals, delivered right to my home.
                     We have lots of food delivery here in Lisbon, but no one comes even close to
                     Omifood. Me and my family are so in love!
-                    <cite><img src="resources/img/customer-2.jpg">Joana Silva</cite>
+                    <cite data-aos="fade-up" data-aos-delay=300><img src="resources/img/customer-2.jpg">Joana Silva</cite>
                 </blockquote>
             </div>
             <div class="col span-1-of-3">    
@@ -261,7 +265,7 @@
                     I was looking for a quick and easy food delivery service in San Franciso. I
                     tried a lot of them and ended up with Omnifood. Best food delivery service in
                     the Bay Area. Keep up the great work!
-                    <cite><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
+                    <cite data-aos="fade-up" data-aos-delay=600><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
                 </blockquote>
                 
             </div>
@@ -274,7 +278,7 @@
         </div>
         
         <div class="row">
-            <div class="col span-1-of-3">
+            <div data-aos="fade-right" data-aos-delay=1000 class="col span-1-of-3">
                 <div class="plan-box">
                     
                 <div>
@@ -292,12 +296,12 @@
                     </ul>
                 </div>
                 <div>
-                    <a href="#" class="btn btn-full">Sign up now!</a>            
+                    <a data-aos="fade-up" data-aos-delay=1400 href="#" class="btn btn-full">Sign up now!</a>            
                 </div>    
                 </div>
             </div>
             
-              <div class="col span-1-of-3">
+              <div data-aos="fade-right" data-aos-delay=500 class="col span-1-of-3">
                 <div class="plan-box">
                     
                 <div>
@@ -315,12 +319,12 @@
                     </ul>
                 </div>
                 <div>
-                    <a href="#" class="btn btn-ghost">Sign up now!</a>            
+                    <a data-aos="fade-up" data-aos-delay=1700 href="#" class="btn btn-ghost">Sign up now!</a>            
                 </div>    
                 </div>
             </div>
             
-              <div class="col span-1-of-3">
+              <div data-aos="fade-right" class="col span-1-of-3">
                 <div class="plan-box">
                     
                 <div>
@@ -338,7 +342,7 @@
                     </ul>
                 </div>
                 <div>
-                    <a href="#" class="btn btn-ghost">Sign up now!</a>            
+                    <a data-aos="fade-up" data-aos-delay=2000 href="#" class="btn btn-ghost">Sign up now!</a>            
                 </div>    
                 </div>
             </div>
@@ -405,7 +409,7 @@
                     <div class="col span-1-of-3">
                         <label>&nbsp;</label>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div data-aos="fade-up" class="col span-2-of-3">
                         <input type="submit" value="Send it!">
                     </div>
                 </div>
@@ -441,6 +445,7 @@
     </footer>
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="resources/js/main.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
         
